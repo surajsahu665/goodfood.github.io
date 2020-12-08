@@ -1,0 +1,140 @@
+body{
+   background-color: #336699;
+}
+header{
+    background-color: #dfa907;  
+}
+Footer{
+  background-color: #1e4162;
+  color: white;
+}
+.row {
+    width: 100%;
+    margin-left: 1px;
+  }
+
+nav>ul>li {
+    float: right;
+    margin-right: 50px;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+  }
+  
+  nav>ul>li a {
+    display: block;
+    color: black;
+    text-align: center;
+  }
+  
+  nav>ul>li a:hover {
+    color: brown;
+  }
+
+  .jumbotron{
+    background-color: #336699;
+  }
+
+  .jumimg{
+    margin-top: -20px;
+    margin-left: -15px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+
+
+
+.menu{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 6px;
+  margin-top: -40px;
+}
+
+#a{
+  text-decoration:none;
+  color:black;
+}
+
+#img{
+  border-style:solid;
+  border-width: 1px;
+}
+
+
+
+
+/* Media  section*/
+@media (min-width: 1200px){
+  nav>ul>li {
+    float: right;
+    margin-right: 40px;  
+  }
+  div>.sk{
+     font-size: 20px;
+     margin-left: 95px;
+  }
+}
+
+@media (min-width: 375px){
+  nav>ul>li {
+    float: right;
+    margin-right: -25px;
+    padding: 20px;
+  }
+  .jumimg{
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 360px){
+  nav>ul>li {
+    float: right;
+    margin-right: -5px;
+    padding: 20px;
+    margin-top: -20px;
+  }
+  .jumimg{
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+}
+
+
+@media (min-width: 835px){
+  .logo{
+    margin-left: -1px;
+  }
+  nav>ul>li {
+    float: right;
+    margin-right: 20px;
+    padding: 1px;
+    margin-top: 15px;
+    font-size: 15px;
+   
+  }
+  .jumimg{
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+  div>.sk{
+    float: left;
+    font-size: 20px;
+
+ }
+}
+
+
+
+
+
+
+
